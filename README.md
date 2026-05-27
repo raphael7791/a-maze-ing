@@ -1,4 +1,4 @@
-*This project has been created as part of the 42 curriculum by rbriguet.*
+*This project has been created as part of the 42 curriculum by rbriguet, elerossi.*
 
 # A-Maze-ing
 
@@ -192,7 +192,8 @@ maze.write_output("maze.txt")
 
 ### Roles
 
-Solo project by rbriguet.
+- **rbriguet**: Maze generation engine, config parser, output format, packaging
+- **elerossi**: Testing, collaboration, review
 
 ### Planning
 
@@ -204,11 +205,14 @@ Solo project by rbriguet.
 6. Package as pip-installable module
 7. Testing and documentation
 
+The planning was followed as anticipated. Collaboration was managed via GitHub with separate branches and pull requests.
+
 ### What worked well
 
 - Separating the maze logic into a reusable module made testing easy
 - The DFS algorithm naturally handles the perfect maze requirement
 - Using bitmasks for wall encoding is efficient and matches the output format
+- Git collaboration with clear separation of responsibilities
 
 ### What could be improved
 
@@ -221,7 +225,8 @@ Solo project by rbriguet.
 - Python 3.10+
 - flake8 and mypy for code quality
 - setuptools for packaging
-- AI (Claude) was used for initial code structure and documentation
+- Git and GitHub for collaboration
+- AI (Claude) was used for code structure, debugging, and documentation
 
 ## Resources
 
